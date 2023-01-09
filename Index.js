@@ -17,7 +17,8 @@ function subtract(){
   i--;
   display.innerHTML = i;
   if (i == 0) {
+    i =0
     alert("opps i can't move backwards again")
-    return false;
+    return false
   }
 }
